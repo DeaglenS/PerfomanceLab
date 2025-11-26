@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys
 
 def load_numbers(filename):
@@ -51,7 +50,6 @@ def find_min_moves(numbers):
 
 def main():
     if len(sys.argv) != 2:
-        print("Использование: python3 min_moves.py <файл>")
         sys.exit(1)
 
     filename = sys.argv[1]
